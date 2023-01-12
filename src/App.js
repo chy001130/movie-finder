@@ -22,7 +22,7 @@ function App() {
       <div classNAme="App">
         <Search />
         <Routes>
-          <Route path='/home' element= {<TopRatedMovieCardList/>} />
+          <Route path='/' element= {<TopRatedMovieCardList/>} />
         </Routes>
       </div>
     </ThemeProvider>
