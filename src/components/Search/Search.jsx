@@ -112,7 +112,7 @@ const SearchBar = () => {
                         <Grid item lg={3} md={4} sm={6} xs={12} key={movie.id}>
                             <Card key={uuidv4()} style={{ backgroundColor: "#282D2F" }}>
                                 <CardContent>
-                                    <img src={movie.poster_path !== null ? `https://image.tmdb.org/t/p/w400` + movie.poster_path : notfound}  alt='movie'
+                                    <img src={movie.poster_path !== null ? `https://image.tmdb.org/t/p/w400` + movie.poster_path : notfound} style={centerStyle}  alt='movie'
                                     />
                                     <Typography variant='h6' style={{ justifyContent: "center", display: "flex", color: "white" }}>{movie.original_title}</Typography>
                                     <Button
