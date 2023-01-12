@@ -1,7 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import SearchIcon from '@mui/icons-material/Search';
 import { retrieveSearchResult } from '../../services/retrieveMovieData';
-import { Button, Card, CardContent, Typography, Box, TextField, Grid, Paper, AppBar, IconButton } from "@mui/material";
+import { Button, Card, CardContent, Typography, Box, TextField, Grid, Paper, AppBar} from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import notfound from '../../assets/no_image.jpeg'
@@ -90,13 +89,10 @@ const SearchBar = () => {
                     <Grid container display='flex' justifyContent='center'>
                         <TextField
                             sx={{ width: { sm: 200, md: 300 }, display: 'flex', alignContent: 'center' }}
-                            placeholder="Search for movies"
+                            placeholder="Search for Movies and Press Enter!"
                             onKeyPress={onKeyPress}
 
                         />
-                        <IconButton type="button" sx={{ p: '10px' }} aria-label="search" >
-                            <SearchIcon />
-                        </IconButton>
                     </Grid>
 
                 </Paper>
