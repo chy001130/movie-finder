@@ -84,7 +84,7 @@ const SearchBar = () => {
                     sx={{ p: '2px 4px', display: 'flex', alignItems: 'center' }}
                 >
                     <Box m={1}>
-                        <button class="button-27" onClick={() => navigate("/home")}>Home</button>
+                        <button class="button-27" onClick={() => navigate("/")}>Home</button>
                     </Box>
 
                     <Grid container display='flex' justifyContent='center'>
