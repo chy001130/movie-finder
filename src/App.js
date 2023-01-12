@@ -2,7 +2,7 @@ import './App.css';
 import TopRatedMovieCardList from './components/TopRatedMovies/TopRatedMovies';
 import Search from './components/Search/Search';
 import { createTheme, ThemeProvider } from '@mui/material';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 
 
